@@ -1,0 +1,501 @@
+user_id,user_type,department,previous_department,department_transfer_flag,transfer_date,old_access_retained_flag,employment_status,termination_date,access_removed_date,account_active_flag,role,privileged_access_flag,mfa_enabled,last_login_date
+U0001,student_worker,Information Technology,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-04-24
+U0002,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-27
+U0003,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-04-18
+U0004,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-18
+U0005,staff,Admissions,,FALSE,,FALSE,terminated,2026-01-21,2026-01-24,FALSE,System Administrator,TRUE,FALSE,2026-01-19
+U0006,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-25
+U0007,staff,Finance,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-18
+U0008,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-06-12
+U0009,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-03
+U0010,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-04-24
+U0011,contractor,Operations,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-06-05
+U0012,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-16
+U0013,admin,Data Analytics,,FALSE,,FALSE,terminated,2026-05-27,2026-05-30,FALSE,Business Analyst,TRUE,TRUE,2026-05-17
+U0014,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-06-06
+U0015,staff,Finance,,FALSE,,FALSE,terminated,2026-05-28,2026-06-02,FALSE,HR Coordinator,FALSE,TRUE,2026-04-29
+U0016,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-31
+U0017,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,FALSE,2026-03-17
+U0018,student_worker,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-06-05
+U0019,student_worker,Research Administration,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-04-01
+U0020,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-08
+U0021,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-17
+U0022,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-13
+U0023,student_worker,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-21
+U0024,student_worker,Finance,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-01
+U0025,contractor,Finance,,FALSE,,FALSE,terminated,2026-02-02,2026-02-05,FALSE,Student Assistant,FALSE,TRUE,2026-01-28
+U0026,staff,Procurement,,FALSE,,FALSE,terminated,2026-03-18,2026-03-21,FALSE,Finance Analyst,FALSE,TRUE,2026-03-09
+U0027,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,FALSE,2026-03-08
+U0028,student_worker,Information Technology,Human Resources,TRUE,2026-05-20,TRUE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-05
+U0029,faculty,Research Administration,Procurement,TRUE,2026-04-26,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-03-11
+U0030,faculty,Admissions,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-08
+U0031,faculty,Finance,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,FALSE,2026-05-04
+U0032,staff,Student Affairs,,FALSE,,FALSE,terminated,2026-05-25,,TRUE,Business Analyst,FALSE,TRUE,2026-06-12
+U0033,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-17
+U0034,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-07
+U0035,staff,Operations,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-04-26
+U0036,faculty,Operations,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-06-15
+U0037,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,TRUE,TRUE,2026-03-27
+U0038,student_worker,Finance,,FALSE,,FALSE,terminated,2026-02-18,2026-02-19,FALSE,Manager,TRUE,FALSE,2026-02-13
+U0039,admin,Human Resources,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-03
+U0040,contractor,Admissions,,FALSE,,FALSE,terminated,2026-05-07,2026-05-10,FALSE,Research Administrator,FALSE,TRUE,2026-04-10
+U0041,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-05-05
+U0042,staff,Data Analytics,,FALSE,,FALSE,leave,,,FALSE,Manager,TRUE,FALSE,2026-03-09
+U0043,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-13
+U0044,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-03-09
+U0045,admin,Student Affairs,,FALSE,,FALSE,terminated,2026-04-24,2026-04-26,FALSE,System Administrator,TRUE,TRUE,2026-04-07
+U0046,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-06-15
+U0047,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-05-26
+U0048,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-06-13
+U0049,admin,Research Administration,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-18
+U0050,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-01
+U0051,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-11
+U0052,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-06-05
+U0053,contractor,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-04-30
+U0054,faculty,Research Administration,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-31
+U0055,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-19
+U0056,student_worker,Research Administration,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-23
+U0057,staff,Graduate Programs,,FALSE,,FALSE,terminated,2026-03-27,2026-04-01,FALSE,IT Support Analyst,FALSE,TRUE,2026-02-25
+U0058,contractor,Data Analytics,,FALSE,,FALSE,terminated,2026-01-17,2026-01-19,FALSE,Contractor,FALSE,TRUE,2026-01-01
+U0059,staff,Human Resources,,FALSE,,FALSE,leave,,,FALSE,Student Assistant,FALSE,TRUE,2026-01-22
+U0060,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-06-06
+U0061,contractor,Admissions,Research Administration,TRUE,2026-04-25,TRUE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-14
+U0062,admin,Information Technology,,FALSE,,FALSE,active,,,TRUE,Business Analyst,TRUE,TRUE,2026-04-30
+U0063,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-06-04
+U0064,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,TRUE,TRUE,2026-05-31
+U0065,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-06-10
+U0066,admin,Information Technology,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-23
+U0067,contractor,Finance,Research Administration,TRUE,2026-05-05,FALSE,transferred,,,TRUE,Professor,FALSE,TRUE,2026-04-25
+U0068,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-04-01
+U0069,contractor,Finance,,FALSE,,FALSE,terminated,2026-04-06,,TRUE,HR Coordinator,FALSE,TRUE,2026-04-23
+U0070,staff,Research Administration,,FALSE,,FALSE,terminated,2026-03-21,2026-03-22,FALSE,Manager,TRUE,TRUE,2026-03-15
+U0071,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-03
+U0072,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-14
+U0073,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-16
+U0074,student_worker,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-01
+U0075,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-23
+U0076,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-06-05
+U0077,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-07
+U0078,staff,Procurement,,FALSE,,FALSE,terminated,2026-02-17,,TRUE,Business Analyst,FALSE,TRUE,2026-03-08
+U0079,admin,Finance,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-05-06
+U0080,staff,Procurement,,TRUE,,FALSE,terminated,2026-02-04,2026-02-05,FALSE,HR Coordinator,FALSE,TRUE,2026-01-29
+U0081,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-16
+U0082,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-03
+U0083,contractor,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-10
+U0084,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-29
+U0085,student_worker,Operations,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-06-03
+U0086,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-03
+U0087,admin,Admissions,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-24
+U0088,admin,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,TRUE,TRUE,2026-03-21
+U0089,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-04-10
+U0090,staff,Finance,,FALSE,,FALSE,terminated,2026-01-23,2026-01-24,FALSE,Professor,FALSE,TRUE,2026-01-01
+U0091,faculty,Procurement,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-02
+U0092,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-15
+U0093,faculty,Finance,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-01
+U0094,admin,Research Administration,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-03-18
+U0095,contractor,Admissions,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-08
+U0096,contractor,Graduate Programs,,FALSE,,FALSE,terminated,2026-05-29,2026-06-08,FALSE,Student Assistant,FALSE,TRUE,2026-05-02
+U0097,staff,Research Administration,Data Analytics,TRUE,2026-05-02,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-04
+U0098,staff,Human Resources,Data Analytics,TRUE,2026-02-13,FALSE,transferred,,,TRUE,Student Assistant,FALSE,FALSE,2026-03-13
+U0099,faculty,Human Resources,,FALSE,,FALSE,terminated,2026-04-21,,TRUE,Professor,FALSE,TRUE,2026-05-09
+U0100,student_worker,Data Analytics,Information Technology,TRUE,2026-04-21,TRUE,transferred,,,TRUE,Professor,FALSE,TRUE,2026-05-09
+U0101,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-13
+U0102,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-01
+U0103,faculty,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-03
+U0104,admin,Human Resources,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-29
+U0105,admin,Data Analytics,,FALSE,,FALSE,leave,,,TRUE,System Administrator,TRUE,FALSE,2026-03-06
+U0106,faculty,Admissions,Operations,TRUE,2026-04-15,FALSE,transferred,,,TRUE,Finance Analyst,FALSE,TRUE,2026-05-13
+U0107,student_worker,Information Technology,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-06-04
+U0108,faculty,Admissions,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-06-05
+U0109,student_worker,Human Resources,Finance,TRUE,2026-05-28,FALSE,leave,,,TRUE,Business Analyst,FALSE,TRUE,2026-02-03
+U0110,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,FALSE,2026-04-04
+U0111,contractor,Admissions,Finance,TRUE,2026-02-19,FALSE,transferred,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-29
+U0112,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-04-17
+U0113,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-30
+U0114,faculty,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-05-29
+U0115,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-31
+U0116,contractor,Human Resources,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-06-04
+U0117,student_worker,Operations,,TRUE,,FALSE,terminated,2026-04-14,2026-04-15,FALSE,Business Analyst,FALSE,TRUE,2026-04-07
+U0118,contractor,Finance,Admissions,TRUE,2026-02-16,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-04-05
+U0119,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-17
+U0120,contractor,Research Administration,,FALSE,,FALSE,terminated,2026-02-16,2026-02-18,FALSE,Business Analyst,FALSE,TRUE,2026-02-08
+U0121,contractor,Human Resources,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-04-15
+U0122,contractor,Research Administration,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-04-23
+U0123,faculty,Finance,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-05-18
+U0124,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-04-24
+U0125,student_worker,Procurement,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-05-19
+U0126,student_worker,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-05-17
+U0127,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-06-14
+U0128,faculty,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-30
+U0129,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-15
+U0130,admin,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-01
+U0131,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-24
+U0132,faculty,Finance,,FALSE,,FALSE,terminated,2026-04-29,,TRUE,Manager,TRUE,TRUE,2026-05-19
+U0133,student_worker,Data Analytics,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-29
+U0134,student_worker,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-09
+U0135,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-09
+U0136,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-07
+U0137,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-05-05
+U0138,staff,Operations,Information Technology,TRUE,2026-02-01,TRUE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-20
+U0139,admin,Human Resources,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-18
+U0140,faculty,Research Administration,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-06
+U0141,staff,Procurement,,FALSE,,FALSE,terminated,2026-02-08,2026-02-18,FALSE,Business Analyst,FALSE,TRUE,2026-02-03
+U0142,contractor,Graduate Programs,,FALSE,,FALSE,terminated,2026-04-22,2026-04-23,FALSE,Student Assistant,FALSE,TRUE,2026-04-13
+U0143,student_worker,Research Administration,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-05-05
+U0144,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-03-19
+U0145,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-07
+U0146,student_worker,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-19
+U0147,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-04-15
+U0148,faculty,Admissions,,FALSE,,FALSE,active,,,TRUE,Student Assistant,TRUE,TRUE,2026-03-12
+U0149,student_worker,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-06-12
+U0150,faculty,Research Administration,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-12
+U0151,contractor,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-07
+U0152,faculty,Human Resources,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-05-26
+U0153,faculty,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-24
+U0154,admin,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-23
+U0155,student_worker,Operations,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-04-12
+U0156,contractor,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-28
+U0157,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-05-09
+U0158,contractor,Data Analytics,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-21
+U0159,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Research Administrator,TRUE,TRUE,2026-05-18
+U0160,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-25
+U0161,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-21
+U0162,contractor,Graduate Programs,,FALSE,,FALSE,terminated,2026-02-05,2026-02-06,FALSE,Research Administrator,TRUE,TRUE,2026-02-02
+U0163,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-29
+U0164,contractor,Student Affairs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-17
+U0165,staff,Student Affairs,,TRUE,,FALSE,terminated,2026-05-10,2026-05-10,FALSE,Business Analyst,FALSE,TRUE,2026-04-18
+U0166,faculty,Graduate Programs,,FALSE,,FALSE,leave,,,FALSE,IT Support Analyst,TRUE,TRUE,2026-05-16
+U0167,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,TRUE,TRUE,2026-03-15
+U0168,contractor,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-19
+U0169,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-11
+U0170,faculty,Student Affairs,Information Technology,TRUE,2026-03-22,FALSE,transferred,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-10
+U0171,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-02
+U0172,student_worker,Finance,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-13
+U0173,contractor,Human Resources,Data Analytics,TRUE,2026-02-05,FALSE,transferred,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-09
+U0174,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-05
+U0175,student_worker,Research Administration,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-06-11
+U0176,staff,Operations,,FALSE,,FALSE,terminated,2026-04-14,,TRUE,Student Assistant,FALSE,FALSE,2026-05-02
+U0177,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-11
+U0178,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-06
+U0179,student_worker,Student Affairs,Procurement,TRUE,2026-03-19,FALSE,transferred,,,TRUE,System Administrator,TRUE,TRUE,2026-03-10
+U0180,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-31
+U0181,student_worker,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-27
+U0182,admin,Student Affairs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,TRUE,TRUE,2026-04-05
+U0183,staff,Finance,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-06-08
+U0184,staff,Procurement,Finance,TRUE,2026-02-18,FALSE,transferred,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-26
+U0185,faculty,Procurement,,FALSE,,FALSE,terminated,2026-05-30,2026-06-04,FALSE,Business Analyst,FALSE,FALSE,2026-05-03
+U0186,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-31
+U0187,contractor,Information Technology,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-12
+U0188,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-10
+U0189,student_worker,Procurement,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-24
+U0190,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-03-22
+U0191,staff,Research Administration,,FALSE,,FALSE,leave,,,TRUE,Manager,TRUE,TRUE,2026-05-22
+U0192,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-14
+U0193,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-03-04
+U0194,staff,Graduate Programs,Data Analytics,TRUE,2026-03-10,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-20
+U0195,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-29
+U0196,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-17
+U0197,student_worker,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-13
+U0198,staff,Operations,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-05-13
+U0199,student_worker,Research Administration,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-12
+U0200,admin,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Business Analyst,TRUE,FALSE,2026-05-16
+U0201,contractor,Procurement,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-06-06
+U0202,staff,Information Technology,Data Analytics,TRUE,2026-05-09,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-04
+U0203,contractor,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-04-13
+U0204,faculty,Student Affairs,Operations,TRUE,2026-05-14,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-31
+U0205,faculty,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-06-03
+U0206,contractor,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-08
+U0207,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-10
+U0208,contractor,Information Technology,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-06-01
+U0209,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-27
+U0210,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-22
+U0211,faculty,Graduate Programs,,FALSE,,FALSE,terminated,2026-04-03,2026-04-04,FALSE,Student Assistant,FALSE,TRUE,2026-03-22
+U0212,staff,Human Resources,,FALSE,,FALSE,leave,,,TRUE,Student Assistant,FALSE,TRUE,2026-05-04
+U0213,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,FALSE,2026-05-30
+U0214,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-05-13
+U0215,student_worker,Operations,,TRUE,,FALSE,terminated,2026-01-30,2026-01-31,FALSE,Professor,FALSE,TRUE,2026-01-22
+U0216,student_worker,Research Administration,,FALSE,,FALSE,terminated,2026-03-12,2026-03-14,FALSE,Finance Analyst,FALSE,TRUE,2026-02-24
+U0217,staff,Research Administration,Human Resources,TRUE,2026-03-25,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-10
+U0218,contractor,Procurement,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-06-07
+U0219,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-23
+U0220,admin,Information Technology,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,TRUE,TRUE,2026-03-02
+U0221,staff,Graduate Programs,,FALSE,,FALSE,leave,,,TRUE,Business Analyst,FALSE,TRUE,2026-02-04
+U0222,contractor,Procurement,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-31
+U0223,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-06-14
+U0224,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,FALSE,2026-04-01
+U0225,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-02
+U0226,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-05-30
+U0227,student_worker,Finance,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,FALSE,2026-06-04
+U0228,admin,Student Affairs,,FALSE,,FALSE,leave,,,FALSE,IT Support Analyst,TRUE,TRUE,2026-01-21
+U0229,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-05-04
+U0230,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-02
+U0231,staff,Data Analytics,,FALSE,,FALSE,terminated,2026-05-08,2026-05-09,FALSE,Student Assistant,FALSE,TRUE,2026-05-08
+U0232,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,TRUE,TRUE,2026-03-08
+U0233,admin,Finance,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-22
+U0234,admin,Student Affairs,,FALSE,,FALSE,leave,,,FALSE,System Administrator,TRUE,TRUE,2026-05-19
+U0235,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-06-05
+U0236,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-14
+U0237,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-09
+U0238,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-30
+U0239,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-16
+U0240,student_worker,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-05
+U0241,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-25
+U0242,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-05
+U0243,faculty,Research Administration,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-23
+U0244,faculty,Human Resources,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-03-12
+U0245,faculty,Research Administration,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-06-06
+U0246,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-25
+U0247,admin,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,TRUE,TRUE,2026-05-10
+U0248,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-03
+U0249,faculty,Procurement,Information Technology,TRUE,2026-03-06,FALSE,leave,,,FALSE,Manager,TRUE,TRUE,2026-02-07
+U0250,faculty,Operations,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-23
+U0251,admin,Student Affairs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,TRUE,TRUE,2026-06-02
+U0252,contractor,Human Resources,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-08
+U0253,faculty,Finance,Information Technology,TRUE,2026-02-28,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-20
+U0254,staff,Graduate Programs,Information Technology,TRUE,2026-04-09,FALSE,leave,,,FALSE,System Administrator,TRUE,TRUE,2026-01-04
+U0255,faculty,Admissions,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-13
+U0256,faculty,Research Administration,Data Analytics,TRUE,2026-04-14,TRUE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-21
+U0257,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-18
+U0258,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-12
+U0259,admin,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,TRUE,FALSE,2026-03-06
+U0260,admin,Admissions,Human Resources,TRUE,2026-05-08,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-03-27
+U0261,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-09
+U0262,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-10
+U0263,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-09
+U0264,admin,Procurement,,FALSE,,FALSE,leave,,,TRUE,System Administrator,TRUE,TRUE,2026-03-17
+U0265,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-10
+U0266,staff,Finance,,FALSE,,FALSE,leave,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-25
+U0267,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-11
+U0268,contractor,Information Technology,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-04-01
+U0269,faculty,Human Resources,Student Affairs,TRUE,2026-03-26,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-25
+U0270,contractor,Student Affairs,,FALSE,,FALSE,leave,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-19
+U0271,staff,Operations,,FALSE,,FALSE,terminated,2026-04-30,,TRUE,Manager,TRUE,TRUE,2026-05-06
+U0272,staff,Student Affairs,,FALSE,,FALSE,leave,,,TRUE,System Administrator,TRUE,TRUE,2026-03-23
+U0273,staff,Procurement,,FALSE,,FALSE,terminated,2026-04-20,,TRUE,System Administrator,TRUE,TRUE,2026-05-09
+U0274,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,FALSE,2026-03-27
+U0275,staff,Admissions,,FALSE,,FALSE,terminated,2026-03-28,2026-03-30,FALSE,Business Analyst,FALSE,TRUE,2026-03-06
+U0276,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-28
+U0277,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-11
+U0278,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-05-26
+U0279,student_worker,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-28
+U0280,faculty,Procurement,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-20
+U0281,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,FALSE,2026-06-02
+U0282,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-13
+U0283,staff,Procurement,Finance,TRUE,2026-04-28,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-04-13
+U0284,admin,Research Administration,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-21
+U0285,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-19
+U0286,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-05-08
+U0287,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-10
+U0288,faculty,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-26
+U0289,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-09
+U0290,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-02
+U0291,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-04-15
+U0292,admin,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-02
+U0293,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-05
+U0294,staff,Admissions,,FALSE,,FALSE,terminated,2026-02-07,2026-02-08,FALSE,Research Administrator,FALSE,TRUE,2026-01-21
+U0295,contractor,Student Affairs,,FALSE,,FALSE,terminated,2026-04-28,,TRUE,Contractor,TRUE,FALSE,2026-05-19
+U0296,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-16
+U0297,student_worker,Research Administration,,FALSE,,FALSE,terminated,2026-02-21,,TRUE,Finance Analyst,FALSE,TRUE,2026-02-24
+U0298,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-30
+U0299,staff,Graduate Programs,Operations,TRUE,2026-05-29,TRUE,transferred,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-18
+U0300,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-13
+U0301,student_worker,Operations,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-06-04
+U0302,staff,Student Affairs,Data Analytics,TRUE,2026-04-23,FALSE,transferred,,,TRUE,Student Assistant,FALSE,TRUE,2026-06-02
+U0303,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-06-15
+U0304,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-06
+U0305,staff,Finance,Admissions,TRUE,2026-04-30,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-24
+U0306,contractor,Admissions,,FALSE,,FALSE,terminated,2026-04-15,2026-04-17,FALSE,Research Administrator,FALSE,TRUE,2026-04-14
+U0307,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-17
+U0308,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-05-01
+U0309,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-06-08
+U0310,contractor,Human Resources,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-06-01
+U0311,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-03-16
+U0312,faculty,Operations,Admissions,TRUE,2026-04-24,TRUE,transferred,,,TRUE,Manager,TRUE,TRUE,2026-04-01
+U0313,faculty,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-05-24
+U0314,contractor,Research Administration,Admissions,TRUE,2026-04-05,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-06-10
+U0315,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,FALSE,2026-05-12
+U0316,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-02
+U0317,staff,Information Technology,,FALSE,,FALSE,leave,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-13
+U0318,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-06-12
+U0319,staff,Student Affairs,Procurement,TRUE,2026-05-05,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-29
+U0320,staff,Research Administration,,FALSE,,FALSE,leave,,,FALSE,Business Analyst,FALSE,TRUE,2026-02-14
+U0321,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-17
+U0322,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,Business Analyst,TRUE,TRUE,2026-04-03
+U0323,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-21
+U0324,staff,Finance,Admissions,TRUE,2026-02-06,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-02
+U0325,staff,Human Resources,,FALSE,,FALSE,leave,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-23
+U0326,staff,Finance,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-11
+U0327,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-10
+U0328,faculty,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-05-15
+U0329,admin,Research Administration,Operations,TRUE,2026-04-23,FALSE,active,,,TRUE,IT Support Analyst,TRUE,TRUE,2026-05-09
+U0330,contractor,Student Affairs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-07
+U0331,admin,Operations,Information Technology,TRUE,2026-05-29,TRUE,transferred,,,TRUE,Business Analyst,TRUE,TRUE,2026-03-12
+U0332,contractor,Operations,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-18
+U0333,student_worker,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,TRUE,TRUE,2026-04-03
+U0334,contractor,Operations,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-18
+U0335,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-15
+U0336,admin,Research Administration,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-08
+U0337,contractor,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-20
+U0338,faculty,Admissions,,FALSE,,FALSE,terminated,2026-05-30,2026-05-31,FALSE,HR Coordinator,FALSE,FALSE,2026-05-05
+U0339,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-17
+U0340,student_worker,Finance,Admissions,TRUE,2026-05-27,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-03-09
+U0341,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-05-13
+U0342,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-05
+U0343,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-10
+U0344,faculty,Finance,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-06-11
+U0345,faculty,Information Technology,,FALSE,,FALSE,terminated,2026-05-18,,TRUE,Professor,FALSE,TRUE,2026-05-27
+U0346,staff,Research Administration,,FALSE,,FALSE,terminated,2026-03-10,2026-03-10,FALSE,IT Support Analyst,FALSE,TRUE,2026-02-17
+U0347,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-23
+U0348,staff,Graduate Programs,,TRUE,,FALSE,terminated,2026-04-10,2026-04-12,FALSE,Manager,TRUE,TRUE,2026-03-23
+U0349,admin,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-03
+U0350,faculty,Information Technology,,FALSE,,FALSE,leave,,,TRUE,Manager,TRUE,TRUE,2026-03-24
+U0351,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-16
+U0352,admin,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-25
+U0353,contractor,Procurement,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-03-29
+U0354,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-13
+U0355,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-12
+U0356,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-12
+U0357,contractor,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-14
+U0358,student_worker,Information Technology,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-18
+U0359,staff,Operations,,FALSE,,FALSE,terminated,2026-01-28,2026-01-28,FALSE,Business Analyst,FALSE,TRUE,2026-01-28
+U0360,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-12
+U0361,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-21
+U0362,staff,Student Affairs,Admissions,TRUE,2026-03-11,TRUE,transferred,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-03
+U0363,staff,Graduate Programs,,FALSE,,FALSE,terminated,2026-05-12,2026-05-12,FALSE,Contractor,FALSE,TRUE,2026-05-07
+U0364,student_worker,Finance,,FALSE,,FALSE,terminated,2026-03-18,,TRUE,Student Assistant,FALSE,TRUE,2026-04-05
+U0365,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-04
+U0366,faculty,Human Resources,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-08
+U0367,contractor,Data Analytics,Procurement,TRUE,2026-03-11,TRUE,transferred,,,TRUE,Professor,FALSE,TRUE,2026-03-31
+U0368,admin,Information Technology,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-05
+U0369,staff,Human Resources,,FALSE,,FALSE,terminated,2026-02-16,2026-02-17,FALSE,Finance Analyst,FALSE,TRUE,2026-01-18
+U0370,student_worker,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-02
+U0371,contractor,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-12
+U0372,faculty,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-22
+U0373,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-19
+U0374,student_worker,Operations,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-04
+U0375,contractor,Information Technology,,FALSE,,FALSE,terminated,2026-02-04,2026-02-05,FALSE,Manager,TRUE,TRUE,2026-01-26
+U0376,admin,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-14
+U0377,staff,Procurement,,TRUE,,FALSE,terminated,2026-05-19,2026-05-22,FALSE,Contractor,FALSE,TRUE,2026-05-03
+U0378,contractor,Information Technology,Operations,TRUE,2026-05-02,TRUE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-07
+U0379,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-05-16
+U0380,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-28
+U0381,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-22
+U0382,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-17
+U0383,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,FALSE,2026-04-18
+U0384,contractor,Procurement,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-14
+U0385,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-04-13
+U0386,admin,Student Affairs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-05-06
+U0387,student_worker,Information Technology,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-23
+U0388,faculty,Admissions,,FALSE,,FALSE,leave,,,FALSE,HR Coordinator,FALSE,TRUE,2026-02-18
+U0389,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,FALSE,2026-03-22
+U0390,contractor,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-24
+U0391,admin,Student Affairs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-12
+U0392,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-19
+U0393,staff,Research Administration,Human Resources,TRUE,2026-02-26,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-20
+U0394,admin,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-03-23
+U0395,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-02
+U0396,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-05
+U0397,faculty,Student Affairs,,FALSE,,FALSE,terminated,2026-03-14,2026-03-19,FALSE,IT Support Analyst,FALSE,TRUE,2026-03-05
+U0398,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-04-28
+U0399,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,FALSE,2026-05-02
+U0400,staff,Research Administration,,FALSE,,FALSE,leave,,,FALSE,Research Administrator,FALSE,TRUE,2026-02-24
+U0401,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-05-21
+U0402,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-03-03
+U0403,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-27
+U0404,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-23
+U0405,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-05-17
+U0406,staff,Admissions,Graduate Programs,TRUE,2026-04-05,FALSE,transferred,,,TRUE,Contractor,FALSE,TRUE,2026-03-06
+U0407,student_worker,Procurement,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-15
+U0408,faculty,Procurement,,FALSE,,FALSE,leave,,,FALSE,Research Administrator,FALSE,TRUE,2026-04-27
+U0409,admin,Admissions,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-16
+U0410,contractor,Student Affairs,Human Resources,TRUE,2026-03-15,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-03-18
+U0411,staff,Graduate Programs,,FALSE,,FALSE,terminated,2026-04-22,2026-04-23,FALSE,HR Coordinator,FALSE,TRUE,2026-04-10
+U0412,student_worker,Procurement,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-03-21
+U0413,staff,Graduate Programs,,FALSE,,FALSE,terminated,2026-01-17,,TRUE,Student Assistant,FALSE,TRUE,2026-01-20
+U0414,admin,Human Resources,Operations,TRUE,2026-02-02,FALSE,active,,,TRUE,Business Analyst,TRUE,TRUE,2026-05-23
+U0415,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-05-28
+U0416,student_worker,Finance,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-06-14
+U0417,faculty,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-03-22
+U0418,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-05-10
+U0419,student_worker,Operations,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-27
+U0420,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-06-10
+U0421,student_worker,Graduate Programs,,FALSE,,FALSE,terminated,2026-04-13,2026-04-16,FALSE,HR Coordinator,FALSE,TRUE,2026-03-17
+U0422,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-15
+U0423,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,FALSE,2026-04-17
+U0424,student_worker,Information Technology,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-18
+U0425,staff,Finance,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-04-23
+U0426,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-03
+U0427,staff,Information Technology,,FALSE,,FALSE,leave,,,FALSE,Contractor,FALSE,TRUE,2026-05-29
+U0428,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-23
+U0429,admin,Research Administration,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-17
+U0430,student_worker,Data Analytics,,FALSE,,FALSE,terminated,2026-03-02,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-17
+U0431,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-11
+U0432,faculty,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-06
+U0433,staff,Operations,,FALSE,,FALSE,active,,,TRUE,Research Administrator,TRUE,TRUE,2026-05-27
+U0434,staff,Information Technology,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-26
+U0435,student_worker,Research Administration,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-07
+U0436,admin,Operations,Information Technology,TRUE,2026-05-07,FALSE,transferred,,,TRUE,Business Analyst,TRUE,TRUE,2026-03-07
+U0437,student_worker,Procurement,,FALSE,,FALSE,leave,,,FALSE,Finance Analyst,FALSE,TRUE,2026-02-19
+U0438,staff,Human Resources,Graduate Programs,TRUE,2026-03-06,TRUE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-05
+U0439,faculty,Admissions,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-05-16
+U0440,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-24
+U0441,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-24
+U0442,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-23
+U0443,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-05-27
+U0444,contractor,Operations,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-17
+U0445,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-13
+U0446,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Contractor,TRUE,TRUE,2026-04-24
+U0447,contractor,Research Administration,,FALSE,,FALSE,terminated,2026-01-28,2026-01-28,FALSE,Contractor,FALSE,TRUE,2026-01-14
+U0448,student_worker,Information Technology,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-03-30
+U0449,admin,Operations,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-05-08
+U0450,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-04
+U0451,staff,Admissions,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-14
+U0452,student_worker,Procurement,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-05-21
+U0453,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-20
+U0454,faculty,Finance,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-22
+U0455,contractor,Human Resources,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-06-11
+U0456,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-26
+U0457,student_worker,Procurement,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-05-19
+U0458,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-20
+U0459,faculty,Student Affairs,Research Administration,TRUE,2026-05-03,FALSE,transferred,,,TRUE,Manager,TRUE,TRUE,2026-04-01
+U0460,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-04-09
+U0461,faculty,Finance,,FALSE,,FALSE,active,,,TRUE,Research Administrator,FALSE,TRUE,2026-03-26
+U0462,staff,Finance,,FALSE,,FALSE,terminated,2026-03-05,2026-03-07,FALSE,Business Analyst,FALSE,TRUE,2026-02-16
+U0463,contractor,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-04-07
+U0464,staff,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-06-12
+U0465,admin,Human Resources,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-19
+U0466,student_worker,Procurement,Research Administration,TRUE,2026-02-06,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-04-17
+U0467,faculty,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-06
+U0468,student_worker,Admissions,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-05-23
+U0469,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-04-14
+U0470,faculty,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,FALSE,2026-03-10
+U0471,faculty,Admissions,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-04-23
+U0472,contractor,Finance,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-03
+U0473,staff,Human Resources,Research Administration,TRUE,2026-02-08,TRUE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-05-13
+U0474,admin,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-28
+U0475,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-24
+U0476,student_worker,Data Analytics,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-03-30
+U0477,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-17
+U0478,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-03-16
+U0479,staff,Human Resources,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-04-17
+U0480,contractor,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-06-11
+U0481,student_worker,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-09
+U0482,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,FALSE,TRUE,2026-04-18
+U0483,student_worker,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Professor,FALSE,TRUE,2026-05-08
+U0484,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,System Administrator,TRUE,TRUE,2026-06-09
+U0485,faculty,Human Resources,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-06-08
+U0486,student_worker,Human Resources,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-05-05
+U0487,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-01
+U0488,contractor,Human Resources,,FALSE,,FALSE,leave,,,FALSE,Student Assistant,FALSE,TRUE,2026-04-09
+U0489,admin,Operations,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,FALSE,2026-06-13
+U0490,staff,Procurement,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-05
+U0491,contractor,Data Analytics,,FALSE,,FALSE,active,,,TRUE,Contractor,FALSE,TRUE,2026-03-01
+U0492,admin,Finance,,FALSE,,FALSE,active,,,TRUE,IT Support Analyst,TRUE,TRUE,2026-03-02
+U0493,student_worker,Finance,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-06-13
+U0494,staff,Graduate Programs,,FALSE,,FALSE,active,,,TRUE,Finance Analyst,FALSE,TRUE,2026-03-14
+U0495,faculty,Data Analytics,,FALSE,,FALSE,active,,,TRUE,HR Coordinator,FALSE,TRUE,2026-06-13
+U0496,contractor,Admissions,Data Analytics,TRUE,2026-04-29,FALSE,transferred,,,TRUE,Student Assistant,FALSE,TRUE,2026-06-08
+U0497,faculty,Information Technology,,FALSE,,FALSE,active,,,TRUE,Student Assistant,TRUE,TRUE,2026-03-30
+U0498,contractor,Operations,,FALSE,,FALSE,active,,,TRUE,Manager,TRUE,TRUE,2026-03-12
+U0499,staff,Student Affairs,,FALSE,,FALSE,active,,,TRUE,Business Analyst,FALSE,TRUE,2026-04-04
+U0500,staff,Research Administration,,FALSE,,FALSE,active,,,TRUE,Student Assistant,FALSE,TRUE,2026-03-26
