@@ -1,46 +1,62 @@
 # GitHub Upload Checklist
 
-Audit completed. All files below reflect what was actually built: a synthetic-data SQL testing project and a **single-page Power BI MVP dashboard** (4 KPI cards + 1 findings/control matrix table + 1 text box). No multi-page dashboard, no production deployment, and no real business impact is claimed anywhere in this repo.
+This checklist keeps the repository truthful before sharing it publicly. The project is synthetic-data only. It does not claim production deployment, real employer data, real remediation, real compliance validation, real dollar savings, real SLA improvement, or real risk reduction.
 
-## Files corrected during this audit
+## Current Repository State
 
-| File | Change |
-|---|---|
-| `README.md` | Section 7 rewritten to describe the actual single-page MVP dashboard (4 KPI cards, 1 findings table, 1 text box); removed `.sqbpro` from the repo structure diagram |
-| `dashboard/dashboard_build_guide.md` | Fully rewritten: documents only what's actually in the `.pbix`; multi-page/chart/slicer content moved to a clearly labeled "Possible Future Enhancements (not yet built)" section |
-| `dashboard/dax_measures.md` | Added a note distinguishing the 4 measures actually used in the MVP dashboard from additional measures provided as reference DAX for future work |
-| `docs/interview_walkthrough.md` | Q9 answer corrected to describe the single-page MVP instead of three pages |
-| `docs/resume_bullets.md` | "multi-page Power BI dashboard" changed to "Power BI dashboard MVP" |
-| `presentation/5_minute_project_script.md` | Dashboard description corrected to the single-page MVP with 4 named KPI cards |
+The repository currently supports these claims:
 
-## Files reviewed, no changes needed
+- Synthetic-data SQL control testing project.
+- Original SQL findings in `/sql`.
+- Single-page Power BI MVP in `dashboard/user_access_it_controls_dashboard.pbix`.
+- Portfolio-grade SQL upgrade files in `/sql_upgrade`.
+- Documentation explaining current state, upgraded SQL design, limitations, interview answers, and truth-audit boundaries.
 
-`docs/executive_summary.md`, `docs/control_matrix.md`, `docs/limitations.md`, `data/data_dictionary.md` — already accurate, already disclaim synthetic data and real business impact appropriately.
+The repository does not currently prove a completed upgraded multi-page Power BI dashboard unless the `.pbix` is manually rebuilt and screenshots are added.
 
-## File removed — do not upload
-
-- **`user_access_controls.sqbpro`** — a DB Browser for SQLite session/workbench file (query scratch history and UI state), not a portfolio deliverable. It has been removed from this package. The equivalent, cleaned-up SQL logic already lives in `/sql`, so nothing is lost by excluding it.
-
-## Ready to upload as-is
+## Ready to Upload As-Is
 
 - `README.md`
-- `data/` — all CSVs, `data_dictionary.md`, `user_access_controls.db`
-- `sql/01_access_control_tests.sql`, `sql/02_ticket_workflow_analysis.sql`, `sql/03_project_findings_summary.sql`
+- `AGENTS.md`
+- `data/`
+- `sql/`
+- `sql_upgrade/`
 - `dashboard/user_access_it_controls_dashboard.pbix`
-- `dashboard/dashboard_build_guide.md`, `dashboard/dax_measures.md`
-- `docs/executive_summary.md`, `docs/control_matrix.md`, `docs/interview_walkthrough.md`, `docs/limitations.md`, `docs/resume_bullets.md`
+- `dashboard/dashboard_build_guide.md`
+- `dashboard/dax_measures.md`
+- `dashboard/dax_measures_upgrade.md`
+- `dashboard/portfolio_grade_build_guide.md`
+- `docs/`
 - `presentation/5_minute_project_script.md`
 
-## Needs your manual action before/after upload
+## Manual Action Still Recommended
 
-1. **Screenshots.** `dashboard/screenshots/` currently only has a placeholder (`.gitkeep`). Add 1–2 real screenshots of the MVP dashboard page (the 4 KPI cards + findings table) so the README/GitHub page has visual proof, not just a description. Reference them in the README under Section 7 once added (e.g., `![Dashboard MVP](dashboard/screenshots/mvp_overview.png)`).
-2. **GitHub repo description/tags.** When you create the repo, use a short description like: *"Synthetic-data SQL + Power BI project testing access, MFA, and approval controls, and IT ticket workflow risk."* Suggested topics: `sql`, `sqlite`, `power-bi`, `it-audit`, `technology-risk`, `data-analytics`, `portfolio-project`.
-3. **LICENSE file (optional).** Not included here. Add one (e.g., MIT) if you want to make reuse terms explicit — not required for a portfolio project but common practice.
-4. **Final read-through.** Before pushing, skim `README.md` and `docs/executive_summary.md` one more time yourself — you know the project best, and a final human check is good practice before anything goes public.
+1. Add real screenshots to `dashboard/screenshots/`.
+2. Add a visible synthetic-data disclaimer textbox to the Power BI page before screenshots.
+3. Add a LICENSE file if you want reuse terms to be explicit.
+4. Skim the README and final truth audit before pushing.
 
-## Confirmation
+## Before Sharing With Recruiters
 
-- No real employer, client, or customer references found anywhere in the repo.
-- No production-deployment claims found.
-- No invented dollar savings, risk-reduction percentages, or SLA-improvement claims found.
-- No numbers were changed or invented during this audit — all figures still match your original SQL findings exactly (27, 28/14, 84, 25, 143, 62, 440/3,000, and all three category breakdowns).
+1. Run `sql_upgrade/06_validation_queries.sql` and confirm the documented finding counts still reconcile.
+2. Open `dashboard/user_access_it_controls_dashboard.pbix` in Power BI Desktop.
+3. Add a visible synthetic-data disclaimer textbox before taking final screenshots.
+4. Decide whether you are sharing the current single-page MVP or a manually upgraded dashboard.
+5. If you build the upgraded pages, confirm the `.pbix` actually contains them before describing them as complete.
+6. Save screenshots in `dashboard/screenshots/` and use filenames that match `dashboard/portfolio_grade_build_guide.md`.
+7. Verify `README.md` matches the actual screenshots and current `.pbix` state.
+8. Check that `docs/resume_bullets.md` matches the version you are actually sharing.
+9. Use the current honest resume bullets until upgraded Power BI pages and screenshots exist.
+10. Test the GitHub link in an incognito/private browser to confirm screenshots and files render correctly.
+
+## Final Claim Check
+
+Before posting the GitHub link, confirm:
+
+- No real employer, client, customer, or employee data is mentioned.
+- No production deployment is claimed.
+- No real remediation outcome is claimed.
+- No real compliance validation or certification is claimed.
+- No invented dollar savings, SLA improvement, or risk reduction is claimed.
+- No upgraded Power BI pages, slicers, charts, drill-throughs, or remediation tracker visuals are claimed unless screenshots or the `.pbix` prove they exist.
+
